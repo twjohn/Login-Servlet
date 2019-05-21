@@ -51,6 +51,9 @@ public class login extends HttpServlet {
                 if (user.equals(foundUser) && pass.equals(foundPass)) {
                     HttpSession session = request.getSession();
                     session.setAttribute("username", foundUser);
+                    String uname = (String)session.getAttribute("username");
+
+                    System.out.println(uname);
                     response.sendRedirect("home.jsp");
                 }
             } else {/** console error if incorrect user/pass **/
