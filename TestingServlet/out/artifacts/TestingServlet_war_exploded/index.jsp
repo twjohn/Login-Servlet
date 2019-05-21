@@ -8,10 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
   </head>
   <body>
-    <form action="login" method="post">
+  <h1 id="index">User login</h1>
+    <form action="login" method="post" id="loginForm">
       <input type="text" name="uname" placeholder="username"/>
       <input type="password" name="pass" placeholder="password"/>
       <input type="submit" name="login" value="Login"/>
