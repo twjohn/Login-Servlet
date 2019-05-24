@@ -33,10 +33,14 @@
         <body>
             <nav class="navbar-nav navbar-expand-sm nav-tabs nav-justified">
                 <a class="nav-item nav-link active" href="home.jsp">Home</a>
-                <a class="nav-item nav-link" href="ajax.jsp">Ajax Demo</a>
-                <a class="nav-item nav-link" href="gameQuery.jsp">Game Query</a>
-                <a class="nav-item nav-link" href="calculator.jsp">Calculator</a>
+                <a class="nav-item nav-link" id="ajax" href="ajax.jsp">Ajax Demo</a>
+                <a class="nav-item nav-link" id="gameQuery" href="gameQuery.jsp">Game Query</a>
+                <a class="nav-item nav-link" id="calculator" href="calculator.jsp">Calculator</a>
                 <button class="nav-item btn" id="confirm">Logout</button>
             </nav>
+
+        <p>
+            This was designed using boostrap and some custom css.
+        </p>
         </body>
 </html>

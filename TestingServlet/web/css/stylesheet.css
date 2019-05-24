@@ -1,8 +1,8 @@
 .nav-item:hover{
-    background-color: #c6fff8;
+    background-image: linear-gradient(lightgrey, whitesmoke, white , whitesmoke,lightgrey);
 }
-.nav{
-
+.active{
+    background-image: linear-gradient(lightsteelblue, aliceblue, white, aliceblue, lightsteelblue);
 }
 body{
     margin:0px;
@@ -13,7 +13,12 @@ body{
     background: linear-gradient(white, darkgray, grey) no-repeat;
     overflow-x: scroll;
 }
-
+#ajax, #calculator, #gameQuery{
+    /* add unselected nav option design here */
+}
+#confirm{
+    /* add button style for logout here **/
+}
 #login-area .container #login-row #login-column #login-box {
     margin-top: 150px;
     margin-right: auto;

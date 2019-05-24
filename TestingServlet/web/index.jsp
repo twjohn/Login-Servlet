@@ -46,15 +46,5 @@
                   </div>
               </div>
           </div>
-
-      <!--
-          <div class="container">
-              <h1 id="index">User login</h1>
-              <form action="login" method="post" id="loginForm">
-
-
-                  <input type="submit" name="login" value="Login"/>
-              </form>
-          </div>-->
       </body>
 </html>
