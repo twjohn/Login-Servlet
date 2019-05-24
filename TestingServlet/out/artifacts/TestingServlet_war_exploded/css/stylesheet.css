@@ -1,55 +1,32 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+.nav-item:hover{
+    background-color: #c6fff8;
 }
-ul{
+.nav{
 
-    list-style-type: none;
-    margin: 0 0 1em 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-image: linear-gradient(#00bfff,#d3d3d3);
-    box-shadow: inset 0 -5px 1px rgba(0,0,0,0.5),
-    inset 0 1px 1px rgba(255,255,255,1);
 }
-ul li.right{
-    float:right;
-}
-li {
-    border-left: 1px solid rgb(187,187,187);
-    border-right: 1px solid rgb(187,187,187);
-    float: left;
-}
-li a:hover {
-    background-color: rgb(17,17,17);
-    box-shadow: inset 0 -5px 1px rgba(0,0,0,0.5),
-    inset 0 1px 1px rgba(255,255,255,1);
-}
-#active {
-    background-color: rgb(91, 221, 229);
-    box-shadow: inset 0 -5px 1px rgba(0,0,0,0.5),
-    inset 0 1px 1px rgba(255,255,255,1);
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-#index, #loginForm{
-    text-align: center;
-}
-html{
+body{
     margin:0px;
     padding: 0px;
     min-width: 100%;
     min-height: 100%;
     background-size: cover;
-    background: linear-gradient(white, grey) no-repeat;
+    background: linear-gradient(white, darkgray, grey) no-repeat;
     overflow-x: scroll;
+}
+
+#login-area .container #login-row #login-column #login-box {
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    min-width: 400px;
+    height: 320px;
+    border: 1px solid #454545;
+    background-color: whitesmoke;
+}
+#login-area .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+#login-area .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
 }
